@@ -1,0 +1,102 @@
+.bg {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+  width: 60%;
+}
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/coffee-planner-bg.png');
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 15px;
+}
+.header-container-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+}
+.header-container-description {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+}
+.questions-container {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.header-container-content {
+  width: 100px;
+}
+.create-button {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  background-color: #0e8684;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  height: 40px;
+  align-self: center;
+}
+.plan-box {
+  background-color: #1e293b;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  border: 0px solid #000000;
+  border-radius: 8px;
+  margin: 10px;
+}
+.planned-text {
+  font-family: 'Roboto';
+  color: #0e8684;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-size: cover;
+    width: 100%;
+  }
+  .header-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/coffee-planner-bg.png');
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    padding: 15px;
+  }
+  .header-container-content {
+    width: 100px;
+  }
+  .plan-box {
+    background-color: #1e293b;
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    border: 0px solid #000000;
+    border-radius: 8px;
+    align-self: center;
+    width: 500px;
+    margin-top: 10px;
+  }
+}
